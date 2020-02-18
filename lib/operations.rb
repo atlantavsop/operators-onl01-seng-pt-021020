@@ -12,5 +12,6 @@ end
 
 
 def not_safe?(speed)
- 
+#  (conditional) ? 'truth/thuthy' : 'false/falsey'
+ (speed >= 40 && speed <= 60) ? false : true
 end
